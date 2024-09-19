@@ -1,0 +1,49 @@
+/* styles.css */
+.App {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .group-by {
+    margin-bottom: 20px;
+  }
+  
+  .group-by label {
+    margin-right: 10px;
+  }
+  
+  .group-by select {
+    padding: 5px;
+  }
+  
+  .kanban-columns {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+  }
+  
+  .kanban-column {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;
+    background-color: #f9f9f9;
+  }
+  
+  .kanban-card {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+  }
+  
+  .kanban-card h3 {
+    margin: 0;
+    font-size: 1.1em;
+  }
+  
+  .kanban-card p {
+    margin: 5px 0;
+  }
+  
